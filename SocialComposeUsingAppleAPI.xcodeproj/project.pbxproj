@@ -13,6 +13,8 @@
 		E1B693591DA7DB0A00592116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B693571DA7DB0A00592116 /* Main.storyboard */; };
 		E1B6935B1DA7DB0A00592116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B6935A1DA7DB0A00592116 /* Assets.xcassets */; };
 		E1B6935E1DA7DB0A00592116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B6935C1DA7DB0A00592116 /* LaunchScreen.storyboard */; };
+		E1B693671DA7E02F00592116 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B693661DA7E02F00592116 /* Social.framework */; };
+		E1B693691DA7E40F00592116 /* connection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1B693681DA7E40F00592116 /* connection.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E1B6935A1DA7DB0A00592116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1B6935D1DA7DB0A00592116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1B6935F1DA7DB0A00592116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B693661DA7E02F00592116 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E1B693681DA7E40F00592116 /* connection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = connection.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B693671DA7E02F00592116 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				E1B6934D1DA7DB0A00592116 /* SocialComposeUsingAppleAPI */,
 				E1B6934C1DA7DB0A00592116 /* Products */,
+				E1B693681DA7E40F00592116 /* connection.jpg */,
+				E1B693651DA7E02F00592116 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +84,14 @@
 				E1B6934F1DA7DB0A00592116 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1B693651DA7E02F00592116 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1B693661DA7E02F00592116 /* Social.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1B6935E1DA7DB0A00592116 /* LaunchScreen.storyboard in Resources */,
+				E1B693691DA7E40F00592116 /* connection.jpg in Resources */,
 				E1B6935B1DA7DB0A00592116 /* Assets.xcassets in Resources */,
 				E1B693591DA7DB0A00592116 /* Main.storyboard in Resources */,
 			);
